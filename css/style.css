@@ -1,13 +1,85 @@
 /* ================================= 
   Base Element Styles
 ==================================== */
+*{
+
+  box-sizing: border-box;
+}
+
+header{
+  min-height: 10vh;
+  border: 2px solid red;
+
+}
+
+#title{
+  margin: 25px;
+}
+
+h1{
+  font-size: 1.25em;
+}
 
 
+#main{
+  border: 2px solid blue;
+  padding: 50px;
+}
 
 /* ================================= 
   Base Layout Styles
 ==================================== */
 
+body{
+  background: lightgray;
+}
+
+.employee-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 2em;
+}
+
+.employee-card {
+  justify-content: flex-start;
+  margin-top: 25px;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+
+
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 0.5em;
+  background-color: #fff;
+  transition: box-shadow .3s ease;
+}
+
+.avatar {
+  border: 2px solid green;
+  flex: .5;
+  margin: 10px ;
+  border-radius: 50%;
+  background-color: white;
+  background-blend-mode: multiply, luminosity;
+  width: 90px;
+	height: 90px;
+	margin: auto auto 15px;
+}
+
+.employee-info{
+  border: 2px solid green;
+  flex: 1;
+  margin: auto;
+}
+
+.employee-card h3 {
+	font-weight: 600;
+	font-size: 1.2rem;
+  margin-bottom: 0.45em;
+  color: #1e90ff;
+}
 
 
 /*==================== 

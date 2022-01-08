@@ -1,1 +1,1 @@
-console.log("Javascript linked")
+console.log("JavaScript is Linked")
