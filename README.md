@@ -12,4 +12,4 @@ This project is an employee directory, which will display the contact informatio
 ## Features
 
 * On Load: page will fetch the data for 12 random employees.  It will then render that data onto 12 cards, which use a grid layout to organize them.
-* When someone clicks on an employees card, a modal will be displayed showing more detailed contact information for that employee.
+* When someone clicks on an employee's card, a modal will be displayed showing more detailed contact information for that employee.
