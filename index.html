@@ -11,50 +11,37 @@
 </head>
 
 <body>
-  <div id="main">
+  <div class="main">
     <header>
-      <div id='title'>
-        <h1>AWESOME STARTUP EMPLOYEE DIRECTORY</h1>
-      </div>
+      <h1>AWESOME STARTUP EMPLOYEE DIRECTORY</h1>
     </header>
 
-    <ul class="employee-list">
-      <li class="employee-card">
-        <div class='img-wrapper'>
-          <img src="responsive-layout-profile.png" alt="Emplyee profile-photo" class="avatar">
-        </div>
-        <div class='employee-info'>
-          <h3>Employee Name</h3>
-          <span class="details">Email</span><br>
-          <span class="details">Home Town, USA</span>
-        </div>
-      </li>
-      <li class="employee-card">
-        <div class='img-wrapper'>
-          <img src="responsive-layout-profile.png" alt="Emplyee profile-photo" class="avatar">
-        </div>
-        <div class='employee-info'>
-          <h3>Employee Name</h3>
-          <span class="details">Email</span><br>
-          <span class="details">Home Town, USA</span>
-        </div>
-      </li>
-      <li class="employee-card">
-        <div class='img-wrapper'>
-          <img src="responsive-layout-profile.png" alt="Emplyee profile-photo" class="avatar">
-        </div>
-        <div class='employee-info'>
-          <h3>Employee Name</h3>
-          <span class="details">Email</span><br>
-          <span class="details">Home Town, USA</span>
-        </div>
-      </li>
+    <div class="grid-container">
 
-      <!-- Dynamically insert students here -->
-    </ul>
-  </div>
+      <!-- Dynamically insert Employee Cards Here -->
 
-  <script src="js/script.js"></script>
+    </div>
+
+    <div class="overlay hidden">
+      <div class="modal">
+        <button class="modal-close">X</button>
+        <div class="modal-content">
+          <img src="responsive-layout-profile.png" alt="Employee photo" class="avatar">
+          <div class="text-container">
+            <h2 class="name">Emaployee Name</h2>
+            <p class="email">Employee@email.com</p>
+            <p class="address">address</p>
+            <hr />
+            <p>(593) 364-3249</p>
+            <p class="address">122 Autumn Lane Columbus, MS 38967</p>
+            <p>Birthday: 01/04/85</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
